@@ -1,0 +1,79 @@
+================================================================================
+  GITHUB PAGES — SOLO LA PAGINA WEB (nada mas)
+  Alejandra Martinez
+================================================================================
+
+Esta carpeta contiene UNICAMENTE el sitio compilado:
+  index.html, assets/, projects/, favicon.svg
+
+NO incluye codigo fuente, NYX, SaaS, node_modules ni otros proyectos.
+
+================================================================================
+  PASOS (subir tu misma, desde github.com)
+================================================================================
+
+1. Crea cuenta en https://github.com (si no tienes)
+
+2. Clic en "+" → New repository
+   - Nombre sugerido: portafolio
+   - Public (necesario para Pages gratis)
+   - NO marques "Add README"
+   - Create repository
+
+3. En la pagina del repo vacio → "uploading an existing file"
+
+4. Arrastra TODO el contenido de esta carpeta "para-github":
+   - index.html
+   - favicon.svg
+   - .nojekyll          (importante: incluye archivos que empiezan con punto)
+   - carpeta assets/
+   - carpeta projects/
+   - NO subas SUBIR-A-GITHUB.txt si no quieres (es solo ayuda)
+
+   En Windows, si no ves .nojekyll al arrastrar, subelo aparte:
+   crea un archivo vacio llamado .nojekyll en GitHub o copialo manualmente.
+
+5. Commit changes (abajo) → "Upload site"
+
+6. Settings → Pages (menu izquierdo del repo)
+   - Build and deployment → Source: Deploy from a branch
+   - Branch: main → folder / (root) → Save
+
+7. Espera 1-3 minutos. Tu URL sera:
+
+   https://TU-USUARIO.github.io/portafolio/
+
+   (cambia TU-USUARIO y "portafolio" por tu usuario y nombre del repo)
+
+================================================================================
+  URL MAS CORTA (opcional)
+================================================================================
+
+Si creas un repo llamado exactamente:
+
+   TU-USUARIO.github.io
+
+(entonces la URL es https://TU-USUARIO.github.io/ sin /portafolio)
+
+================================================================================
+  ACTUALIZAR DESPUES DE CAMBIOS
+================================================================================
+
+En la carpeta Portafolio:
+
+   npm run pack:web
+
+Luego vuelve a subir los archivos nuevos a GitHub (o usa git push si
+aprendes git mas adelante).
+
+================================================================================
+  PARA FORMULARIOS DE EMPLEO
+================================================================================
+
+Usa la URL completa, ejemplo:
+
+   https://alejandra-martinez.github.io/portafolio
+
+(sin barra final, a veces los formularios la prefieren asi)
+
+================================================================================
